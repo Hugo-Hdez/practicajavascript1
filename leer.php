@@ -5,7 +5,7 @@ $archivo_url = fopen("archivo.txt","r");
 $texto = "";
 
 while ($fragmento = fgets($archivo_url)){
-    $texto = $fragmento
+    $texto .= $fragmento
 }
 
 printf($texto);
